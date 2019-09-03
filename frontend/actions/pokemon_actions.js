@@ -36,5 +36,11 @@ export function fetchPokemon(pokemonId) {
   }
 }
 
+export function createPokemon(pokemon) {
+  return function(dispatch) {
+    ApiUtils.createPokemon(pokemon).then(res => dispatch(receivePokemon(res)) )
+  }
+}
+
 window.fetchAllPokemons = fetchAllPokemons
 window.fetchPokemon = fetchPokemon
