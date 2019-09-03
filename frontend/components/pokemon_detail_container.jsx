@@ -7,9 +7,10 @@ import PokemonDetail from './pokemon_detail'
 
 // debugger
 function mapStateToProps(state, props) {
-  debugger
   return {
+    pokemon: state.entities.pokemons[props.match.params.id],
     items: selectPokemonItems(state, props.match.params.id)
+    // items: Object.values(state.entities.items).filter(item => item.pokemon_id === +props.match.params.id)
   }
 }
 

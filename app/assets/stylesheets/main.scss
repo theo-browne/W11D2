@@ -3,9 +3,96 @@
 }
 
 .detail {
-  background: blue
+  // position: absolute;
+  // left: 300px;
+  text-align: center;
+  background: gray;
+  color: black;
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 5px
 }
 
+.detail-view {
+  margin-left: 20%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.index{
+  list-style: none
+}
+.list-item div {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  text-align: left
+  // width: 60px;
+  // border-bottom: 1px solid black
+}
+.list-item div img {
+  padding-left: 15px;
+}
+.poke-link {
+  text-align: left;
+  text-decoration: none
+}
+.poke-link li{
+  text-align: left;
+  text-decoration: none
+}
+
+
+.list-item{
+  display: flex;
+  // justify-content: space-around;
+  width: 150px;
+  border-bottom: 1px solid black;
+  text-align: left
+
+}
+
+.small-image{
+  height: 20px;
+  width: 20px
+}
+.poke-image{
+  width: 60%;
+  padding: 30px;
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 5px 
+}
 .index {
-  background: red
+  // background: red
+}
+
+.items {
+  border: 2px solid black;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: white
+  
+}
+.item-details{
+  list-style: none;
+  padding-top: 10px;
+  
+}
+
+.pokemon-detail {
+  list-style: none
+}
+.item-images{
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 20px
+}
+
+.item-image {
+  height: 100px;
+  width: 100px
 }
