@@ -17,12 +17,12 @@ export function receivePokemon(pokemon) {
   }
 }
 
-export function createPokemon(pokemon) {
-  return {
-    type: CREATE_POKEMON,
-    pokemon
-  }
-}
+// export function createPokemon(pokemon) {
+//   return {
+//     type: CREATE_POKEMON,
+//     pokemon
+//   }
+// }
 
 export function fetchAllPokemons() {
   return function(dispatch) {

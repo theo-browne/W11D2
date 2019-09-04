@@ -23,8 +23,17 @@ class PokemonForm extends React.Component{
   render(){
     return(
       <form onSubmit={this.handleSubmit}>
-      <label >
-      <input type="text" name="" id=""/>
+      <label > Name
+      <input type="text" value={this.state.name}/>
+      </label>
+      <label > Attack
+      <input type="number" value={this.state.attack}/>
+      </label>
+      <label > Defense
+      <input type="text" value={this.state.defense}/>
+      </label>
+      <label > Type
+      <input type="text" value={this.state.poke_type}/>
       </label>
       </form>
     )
